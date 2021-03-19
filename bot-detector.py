@@ -1,6 +1,7 @@
 import amino
-import random
 
+import threading
+import heroku
 fakeemails=['email1','email2','email3']             #you can add more emails and passwords
 passwords=['password1','password2','password 3']    # in the same format here , just put a comma
 
