@@ -1,9 +1,8 @@
 import amino
-
 import threading
 import heroku
-fakeemails=['email1','email2','email3']             #you can add more emails and passwords
-passwords=['password1','password2','password 3']    # in the same format here , just put a comma
+fakeemails=['email1'mouryaravi55@gmail.com,'email2','email3']             #you can add more emails and passwords
+passwords=['password1'ravikrishnaoppo,'password2','password 3']    # in the same format here , just put a comma
 
 
 message=["""
