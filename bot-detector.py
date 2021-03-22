@@ -3,8 +3,8 @@ import threading
 import heroku
 Form time import slep
 Client=Amino.client()
-email='ravimourya526@yahoo.com'
-Posswod='ravi1234oppo'
+email='ravimourya20@yahoo.com'
+Posswod='ravioppo1234'
 Client.login(email=email, posswod=posswod)
 Comid=[17015136,14999388] # indian time , indians vip
 Mtyp=[100,107,109,110,114,115]
