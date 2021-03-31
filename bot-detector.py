@@ -12,7 +12,7 @@ Me['e85600276-7896-41ca-964e-3aa7358b
 
 Heroku_conn= heroku.from_key('2510e
 Botapps= heroku_conn.apps()[' botdetect
-Welcome message [.setw]
+Welcome message= [.setw]
 
 
     Def search_bot(message,comid):
