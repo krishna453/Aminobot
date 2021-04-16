@@ -1,7 +1,6 @@
 import amino
 client = amino.Client()
-client.login(email='ravimourya20@yahoo.com',password='ravioppo1234')
+client.login(email='temawe7102@aiclbd.com',password='abhiashish')
 comlist= client.sub_clients(size=100)
 for name, id in zip(comlist.name,comlist.comId):
-    print("Comm Name  : ", Indians vip,"\nComm Id :",14999388,"\n--------------")
-© 2021 GitHub, Inc.
+    print("Comm Name  : ",name,"\nComm Id :",id,"\n--------------")
