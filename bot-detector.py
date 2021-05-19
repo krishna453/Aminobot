@@ -55,7 +55,7 @@ on_chat_unpin_announcement
 on_chat_tipping_enabled
 on_chat_tipping_disabled
 on_timestamp_message
-on_welcome_message
+on_welcome_message=['setw']
 on_invite_message
 on_user_typing_start
 on_user_typing_end
