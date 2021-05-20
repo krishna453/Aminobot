@@ -9,7 +9,7 @@ for name, id in zip(comlist.name,comlist.comId):
 List of Events
 Simple example of how to use this in #aminopy-examples 
 
-on_text_message
+on_text_message 
 on_image_message
 on_youtube_message
 on_strike_message
@@ -40,7 +40,7 @@ on_avatar_chat_end
 on_chat_content_changed
 on_screen_room_start
 on_screen_room_end
-on_chat_host_transfered
+on_chat_host_transfered('cheng')
 on_text_message_force_removed
 on_chat_removed_message
 on_text_message_removed_by_admin
@@ -56,7 +56,7 @@ on_chat_tipping_enabled
 on_chat_tipping_disabled
 on_timestamp_message
 on_welcome_message=['setw']
-on_invite_message
+on_invite_message=('join')
 on_user_typing_start
 on_user_typing_end
 
