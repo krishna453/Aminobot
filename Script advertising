@@ -1,0 +1,40 @@
+import amino                                                    
+EMAIL=['ravimourya526@yahoo.com'] #just put your emails in place of the dummy examples and if you want to add more than 6 just put a comma and continue 
+cid =["14999388"] #major communities are already added in here
+client = amino.Client()
+for x in cid:
+    i=0
+    for y in EMAIL:
+        try:
+        		client.login(email=y, password="ravi1234oppo")
+        except:
+        	pass #password of all the emails (must be same for all)
+        print('logged in to ', y)
+        print('....')
+        try:
+        		client.join_community(x)
+        except:
+        	pass
+        try:
+        		subclient = amino.SubClient(comId=x, profile=client.profile)
+        except:
+        	pass
+        try:
+        		print('\n\n\n\nJoined in Target Community with name ', subclient.profile.nickname,'Community id is :- ', x)
+        except:
+        	pass
+        try:
+        		users= subclient.get_online_users(start=i,size=60)
+        except:
+        	pass
+        for nickname, id in zip(users.profile.nickname, users.profile.userId):
+            try:
+            		subclient.start_chat(str(id),"[c]──────⊹⊱✫⊰⊹──────\n[c]-ˏˋ. You've received an invitation ˊˎ-\n[c]──────⊹⊱✫⊰⊹──────\n\n\n[ci]Hello there ^^ I hope I'm not bothering you, but I'm here to ask you if you want to join this gc It's quite nice there and if you don't want to join then it's completely fine.\n\n\n[c][http://aminoapps.com/p/zdiin4] \n\n\n[ci]Thank you so much for your time taken on reading this! Have a great day/evening ^^")
+            except:
+            	pass
+            try:
+            		print("Sent mssg to", nickname, str(id))
+            except:
+            	pass
+        
+        i+=60
